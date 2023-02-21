@@ -11,7 +11,7 @@ export default function useEffectTwo() {
     }, [])
 
     return(
-        <>
+        <div className={styles.main}>
             <Link className={styles.home} href="/">Home</Link>
             <div className={styles.title}>
                 useEffect Two
@@ -19,6 +19,6 @@ export default function useEffectTwo() {
             <div className={styles.number}>
                 {number}
             </div>
-        </>
+        </div>
     )
 }

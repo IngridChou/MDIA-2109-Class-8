@@ -12,7 +12,7 @@ export default function useEffectOne() {
     })
     
     return(
-        <>
+        <div className={styles.main}>
         <Link className={styles.home} href="/">Home</Link>
         <div className={styles.title}>
             useEffect One
@@ -20,6 +20,6 @@ export default function useEffectOne() {
         <div className={styles.number}>
             {number}
         </div>
-        </>
+        </div>
     )
 }

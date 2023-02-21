@@ -1,3 +1,9 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .title {
     color: var(--orange);
     font-size: 32px;

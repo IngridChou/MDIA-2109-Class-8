@@ -12,7 +12,7 @@ export default function useEffectThree() {
     }, [number])
 
     return(
-        <>
+        <div className={styles.main}>
             <Link className={styles.home} href="/">Home</Link>
             <div>
                 <button className={styles.button} onClick={() => setNumber(number + 1)}>Click me</button>
@@ -23,6 +23,6 @@ export default function useEffectThree() {
             <div className={styles.number}>
                 {value}
             </div>
-        </>
+        </div>
     )
 }
