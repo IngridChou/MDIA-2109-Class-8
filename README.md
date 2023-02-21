@@ -6,4 +6,4 @@
 
 - npm run dev
 
-- Javascript
+- Javascript, css
