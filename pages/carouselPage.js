@@ -1,4 +1,4 @@
-import Carousel from "@/components/index"
+import Carousel from "@/Components/index"
 import Link from "next/link"
 import styles from '@/styles/carouselPage.module.css'
 
