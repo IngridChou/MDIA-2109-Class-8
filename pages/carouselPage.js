@@ -1,6 +1,6 @@
-import Carousel from "./components/index"
+import Carousel from "@/components/index"
 import Link from "next/link"
-import styles from './styles/carouselPage.module.css'
+import styles from '@/styles/carouselPage.module.css'
 
 export default function CarouselPage() {
     return(
