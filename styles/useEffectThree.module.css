@@ -1,0 +1,23 @@
+.title {
+    color: var(--green);
+    font-size: 42px;
+}
+
+.number {
+    color: var(--red);
+    font-size: 36px;
+}
+
+.button {
+    background-color: var(--blue);
+    border-radius: 1em;
+    color: var(--white);
+    width: 8em;
+    height: 2em;
+    font-size: 36px;
+}
+
+.home {
+    font-size: 64px;
+    color: var(--orange);
+}

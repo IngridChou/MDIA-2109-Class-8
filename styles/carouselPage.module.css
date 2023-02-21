@@ -1,0 +1,14 @@
+.carousel {
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+}
+
+.home {
+    font-size: 42px;
+    color: var(--blue);
+    text-decoration: none;
+}

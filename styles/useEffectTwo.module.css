@@ -1,0 +1,14 @@
+.title {
+    color: var(--orange);
+    font-size: 32px;
+}
+
+.number {
+    color: var(--red);
+    font-size: 32px;
+}
+
+.home {
+    font-size: 42px;
+    text-decoration: none;
+}
