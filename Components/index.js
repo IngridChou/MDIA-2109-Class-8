@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { useEffect, useState } from "react"
-import styles from "@/components/carousel.module.css"
+import styles from "@/Components/carousel.module.css"
 
 export default function Carousel() {
     const [img, setImg] = useState(0);
